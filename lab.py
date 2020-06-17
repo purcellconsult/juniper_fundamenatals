@@ -1,10 +1,8 @@
 
-var1_original,var2_original=4,5.75
-var1=var2_original
-var2=var1_original
-
-print("Orignal numbers of var1 and var2 are {}, {}" .format(var1_original, var2_original))
+var1,var2=4,5.75
+print("Orignal numbers of var1 and var2 are {}, {}" .format(var1, var2))
 print ("task one to swap the two variables")
+var1,var2=var2,var1
 print("new var1 is {}, new var2 is {}" .format(var1,var2))
 
 if var1 > var2:
